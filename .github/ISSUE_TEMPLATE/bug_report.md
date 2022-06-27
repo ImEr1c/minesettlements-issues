@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-[] I am using the latest version of the mod
-[] I checked if this bug report it's not a duplicate
+- [] I am using the latest version of the mod
+- [] I checked if this bug report it's not a duplicate
 
 **Information**
  - Mod Version
@@ -19,10 +19,6 @@ What happened?
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
 
 **Expected behavior**
 
