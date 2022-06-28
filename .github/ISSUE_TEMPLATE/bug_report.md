@@ -25,4 +25,6 @@ Steps to reproduce the behavior:
 **Screenshots**
 Send some screenshots if applicable
 
+**Crash report (if it is a crash)**
+
 **More Info**
