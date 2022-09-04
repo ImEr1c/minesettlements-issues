@@ -1,1 +1,74 @@
-
+name: Bug Report
+description: Report a bug to help us improve our mod
+title: [Bug]: 
+labels: bug
+body:
+- type: checkboxes
+  id: copy_issue
+  attributes:
+    label: Is there already an issue open for this bug?
+    description: "Please check if there is already an issue open for your bug, we don't want duplicates"
+    options:
+     - label: I have checked and there is no issue for this yet
+       required: true
+- type: checkboxes
+  id: latest_mod
+  attributes:
+    label: Are you using the latest BETA version available of this mod?
+    description: "Please try to use the latest BETA version of this mod before making a bug report because your problem may be fixed"
+    options:
+     - label: I have tried to use the latest version
+       required: true
+- type: input
+  id: mod_ver
+  attributes:
+    label: Minesettlements version
+    description: Type in the version of minesettlements you are using
+    placeholder: "ex: 1.0-BETA"
+  validations:
+    required: true
+- type: textarea
+  id: other_mods
+  attributes:
+    label: Other mods and their versions
+    description: Type the other mods versions (geckolib and fabric api)
+    value: |
+     1. Fabric API: 
+     2. GeckoLib: 
+    render: bash
+  validations:
+    required: true
+- type: textarea
+  id: problem
+  attributes:
+    label: What is the problem?
+    description: Tell us what is the problem
+    render: bash
+  validations:
+   required: true
+- type: textarea
+  id: reproduction
+  attributes:
+    label: Reproduction steps
+    description: Steps to reproduce this issue
+    placeholder: |
+     1.
+     2.
+     3.
+     ...
+    render: bash
+  validations:
+    required: true
+- type: input
+  id: logs
+  attributes:
+    label: Logs
+    description: Use (https://pastebin.com/ or https://gist.github.com/)
+  validations:
+    required: false
+- type: textarea
+  id: else
+  attributes:
+    label: Anything Else?
+  validations:
+   required: false
