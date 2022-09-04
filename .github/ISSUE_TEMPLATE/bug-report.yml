@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug to help us improve our mod
+description: Report a bug to help me improve my mod
 title: "[Bug]: "
 labels: bug
 body:
@@ -42,7 +42,7 @@ body:
   id: problem
   attributes:
     label: What is the problem?
-    description: Tell us what is the problem
+    description: Tell me what is the problem
     render: bash
   validations:
    required: true
